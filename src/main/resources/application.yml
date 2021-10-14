@@ -1,0 +1,20 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/alkemyongdev
+    username: root
+    password:
+    driver-class: com.mysql.jdbc.Driver
+    initialization-mode: never
+cloud:
+  aws:
+    credentials:
+      accessKey:
+      secretKey:
+    region:
+      static:
+application:
+  bucket:
+    name:
